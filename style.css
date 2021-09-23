@@ -106,12 +106,43 @@ body{
     display: inline-block;
 }
 
+/* terza sezione */
+
 .plan{
     width: 100%;
     height: 1200px;
     border: solid 2px yellow;
 }
 
+.title-plan{
+    margin-left: 120px;
+    margin-top: 200px;
+    width: 60%;
+    height: 40px;
+    font-size: 35px;
+    font-weight: bold;
+    border: solid 2px blue;
+}
+
+.button-plan{
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.box-plan{
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 50px;
+    float: left;
+    width: calc(60% / 3);
+    height: 800px;
+    border: solid 2px blue;
+}
+
+
+
+
+/* quarta sezione */
 .patner{
     width: 100%;
     height: 500px;
