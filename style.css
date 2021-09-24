@@ -238,10 +238,27 @@ body{
 #box-1{
     background-image: url(img/business-feature-switching-tools.png);
 }
+#box-2{
+    background-image: url(img/business-feature-coordinate-it.png);
+}
+#box-3{
+    background-image: url(img/business-feature-multi-device.png);
+}
+#box-4{
+    background-image: url(img/business-feature-integrations-it.png);
+}
+#box-5{
+    background-image: url(img/business-feature-send-files-it.png);
+}
+#box-6{
+    background-image: url(img/business-feature-security.png);
+}
+
 
 .box-title{
     margin-top: 20px;
     font-size: 25px;
+    font-weight: bold;
 }
 
 .box-text{
@@ -286,6 +303,8 @@ body{
     border: solid 2px red;
     width: calc(100% / 3);
     height:350px;
+    position: relative;
+    
 }
 
 .mini-box{
@@ -293,6 +312,59 @@ body{
     border: solid 1px green;
     width: calc(100% / 2);
     height: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* parte destra */
+#img-1{
+    background-image:url(img/designit.svg) ;
+    position: absolute;
+    transform: translate(50% , 50%);
+    width: 25%;
+}
+
+#img-2{
+    background-image:url(img/arizona_state_university.svg) ;
+    position: absolute;
+    transform: translate(50% , 50%);
+    width: 25%;
+}
+
+#dx-up{
+    background-color: rgba(162,211,155,255);
+}
+
+#dx-down{
+    background-color:rgba(255,28,28,255);
+}
+
+#sx-up{
+    background-color: rgba(97,8,43,255);
+}
+
+#sx-down{
+    background-color: rgba(0,147,206,255);
+}
+
+/* parte sinistra */
+
+#dx-up2{
+    background-color:rgba(180,208,231,255);
+}
+
+#dx-down2{
+    background-color: rgba(13,36,129,255);
+}
+
+#sx-up2{
+    background-color:rgba(213,0,31,255);
+}
+
+#sx-down2{
+    background-color: rgba(255,216,48,255);
+}
+#main{
+    background-color:rgba(245,245,245,255);
 }
 
 .dropbox-business{
@@ -329,7 +401,41 @@ body{
     border: solid 2px yellow;
 }
 
+.box-domande{
+    margin:0 auto;
+    width: 70%;
+    height: 100%;
+    border: solid 2px tomato;
+}
 
+.d-frequenti{
+    margin-top: 80px;
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+
+.box-line{
+    margin-top: 40px;
+}
+
+.b-line{
+    float: left;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 40px;
+
+
+}
+
+.arrow{
+    margin-left:300px;
+    float:;
+    display: inline-block;
+    font-weight: bold;
+
+
+}
 /* nona sezione */
 .black{
     width: 100%;
