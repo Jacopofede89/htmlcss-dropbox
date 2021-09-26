@@ -25,6 +25,8 @@ body{
 .main_logo{
     display: inline-block;
     margin: 15px;
+    text-decoration: none;
+    color: black;
 }
 
 .main_logo_dx{
@@ -558,27 +560,26 @@ body{
     color: black;
 }
 
-.box-line{
-    margin-top: 40px;
-}
-
-.b-line{
-    float: left;
-    display: inline-block;
-    font-weight: bold;
-    margin-top: 40px;
-
-
-}
-
 .arrow{
     margin-left:300px;
-    float:;
     display: inline-block;
     font-weight: bold;
-
-
 }
+
+table, td {
+    margin-top: 40px;
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+    border-right:none;
+    border-left:none;
+  }
+
+  td{
+    font-weight: bold;  
+    padding:25px 0;    
+  }
+
+
 /* nona sezione */
 .black{
     width: 100%;
@@ -589,8 +590,30 @@ body{
 
 .menu-col{
     line-height: 1.5;
-    padding: 100px 80px;
+    padding: 80px 70px;
     float: left;
 }
 
+.hr_menu hr{
+    color: white;
+    margin-top: 60px;
+}
 
+.world{
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.menu-col a{
+    color: white;
+    text-decoration: none;
+}
+
+h5{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
