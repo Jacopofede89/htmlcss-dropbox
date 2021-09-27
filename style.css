@@ -16,12 +16,16 @@ body{
     
 }
 
+/* seconda sezione */
+
 .row{
     width: 100%;
     height: 60px;
     background-color: white;
-    position: fixed;
+    position: sticky;
+    top: 0;
 }
+
 .main_logo{
     display: inline-block;
     margin: 15px;
@@ -49,19 +53,21 @@ body{
     display: inline-block;
     cursor: pointer;
 }
-
-/* seconda sezione */
+.logo_1{
+    width: 100%;
+    height: 70px;
+}
 
 .jumbotron{
     width: 100%;
     height: 600px;
     background-color: rgba(180,208,231,255);
-    border: solid 2px white;
+    /* border: solid 2px transparent; */
 }
 
 .text-jumbo{
     margin: auto;
-    margin-top: 70px;
+    margin-top: 30px;
     width: 75%;
     height: 200px;
     font-size: 60px;
@@ -111,7 +117,7 @@ body{
 
 .plan{
     width: 100%;
-    height: 1200px;
+    height: 1000px;
     /* border: solid 2px yellow; */
 }
 
@@ -387,7 +393,7 @@ body{
 
 .team{
     width: 100%;
-    height: 300px;
+    height: 200px;
     /* border: solid 2px red; */
 }
 
