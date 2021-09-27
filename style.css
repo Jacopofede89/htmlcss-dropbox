@@ -40,16 +40,15 @@ body{
     font-size: 15px;
     background-color: rgba(0,97,255,255);
     border:none;
+    cursor: pointer;
 }
-
-
 
 .logo{
     float: left;
     margin: 10px;
     display: inline-block;
+    cursor: pointer;
 }
-
 
 /* seconda sezione */
 
@@ -57,7 +56,7 @@ body{
     width: 100%;
     height: 600px;
     background-color: rgba(180,208,231,255);
-    border: solid 2px blue;
+    border: solid 2px white;
 }
 
 .text-jumbo{
@@ -68,7 +67,7 @@ body{
     font-size: 60px;
     font-weight: bold;
     line-height: 1.5;
-    border: solid 2px blue;
+    /* border: solid 2px blue; */
 }
 
 .description-jumbo{
@@ -76,7 +75,7 @@ body{
     margin-left:180px;
     width: 25%;
     height: 250px;
-    border: solid 2px blue;
+    /* border: solid 2px blue; */
     display: inline-block;
 }
 
@@ -102,7 +101,7 @@ body{
 .img-jumbo{
     width: 50%;
     height: 400px;
-    border: solid 2px blue;
+    /* border: solid 2px blue; */
     background-image: url(img/jumbo.png);
     background-size: cover;
     display: inline-block;
@@ -113,7 +112,7 @@ body{
 .plan{
     width: 100%;
     height: 1200px;
-    border: solid 2px yellow;
+    /* border: solid 2px yellow; */
 }
 
 .title-plan{
@@ -123,8 +122,7 @@ body{
     height: 40px;
     font-size: 35px;
     font-weight: bold;
-    border: solid 2px lightgrey;
-    border-top: none;
+    
 }
 
 .button-plan{
@@ -167,7 +165,6 @@ body{
 }
 
 .professional{
-    /* padding: 20px; */
     margin-top: 20px;
     font-weight: bold;
     font-size: 20px;
@@ -240,7 +237,7 @@ body{
     margin: auto;
     width: 100%;
     height: 300px;
-    border: solid 2px red;
+    /* border: solid 2px red; */
     margin-bottom: 120px
 }
 
@@ -282,7 +279,7 @@ body{
 /* quarta sezione */
 
 .patner{
-    border: solid 2px black;
+    /* border: solid 2px black; */
 }
 
 
@@ -302,7 +299,7 @@ body{
     margin-left: 550px;
     width: 650px;
     height: 400px;
-    border: solid 2px red;
+    /* border: solid 2px red; */
 }
 
 .titolo{
@@ -323,8 +320,6 @@ body{
     font-size: 15px;
     background-color: white;
     border-color: black;
-    
-    /* border:none; */
 }
 
 /* quinta sezione */
@@ -332,11 +327,11 @@ body{
 .business{
     /* width: 100%;
     height: 900px; */
-    border: solid 2px black;
+    /* border: solid 2px black; */
 }
 
 .box-business{
-    border: solid 2px black;
+    /* border: solid 2px black; */
     float: left;
     margin: 70px;
     width: calc(70%/ 3);
@@ -393,7 +388,7 @@ body{
 .team{
     width: 100%;
     height: 300px;
-    border: solid 2px red;
+    /* border: solid 2px red; */
 }
 
 .title-team{
@@ -413,16 +408,16 @@ body{
 }
 
 
-/* settima sezione  */
 .designit{
     width:100%;
     height: 600px;
-    border: solid 2px blue;
+    background-color:rgba(180,208,231,255) ;
+    /* border: solid 2px blue; */
 }
 
 .box-disegnit{
     float: left;
-    border: solid 2px red;
+    /* border: solid 2px red; */
     width: calc(100% / 3);
     height:350px;
     position: relative; 
@@ -445,34 +440,20 @@ body{
     transform: translate(50% , 50%);
     width: 50%;
     height: 50%;
+    filter: invert(1);
 }
 
 
-
-#{
-    background-image:url(img/designit.svg) ;
-    position: absolute;
-    transform: translate(50% , 50%);
-    width: 25%;
-}
-
-#{
-    background-image:url(img/arizona_state_university.svg) ;
-    position: absolute;
-    transform: translate(50% , 50%);
-    width: 25%;
-}
-
-#dx-up{
+#sx-up{
     background-color: rgba(162,211,155,255);
-    
+    border:solid 10px rgba(208,233,205,255) ;
 }
 
 #dx-down{
     background-color:rgba(255,28,28,255);
 }
 
-#sx-up{
+#dx-up{
     background-color: rgba(97,8,43,255);
 }
 
@@ -501,6 +482,12 @@ body{
 #main{
     padding: 30px;
     background-color:rgba(245,245,245,255);
+    overflow: scroll;
+}
+
+.scroll{
+    height: 200px;
+    overflow: scroll;
 }
 
 #img-main{
@@ -518,7 +505,7 @@ body{
     width: 70%;
     height: 250px;
     background-color:rgba(180,208,231,255);
-    border: solid 1px black;
+    /* border: solid 1px black; */
 
 }
 
@@ -539,18 +526,18 @@ body{
 }
 
 
-/* ottava sezione */
+/* settima sezione */
 .domande{
     width: 100%;
     height: 500px;
-    border: solid 2px yellow;
+    /* border: solid 2px yellow; */
 }
 
 .box-domande{
     margin:0 auto;
     width: 70%;
     height: 100%;
-    border: solid 2px tomato;
+    /* border: solid 2px tomato; */
 }
 
 .d-frequenti{
@@ -580,7 +567,7 @@ table, td {
   }
 
 
-/* nona sezione */
+/* ottava sezione */
 .black{
     width: 100%;
     height: 400px;
